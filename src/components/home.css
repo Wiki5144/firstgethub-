@@ -1,0 +1,170 @@
+h1 {
+    font-size: 24px
+  }
+  h1{
+    letter-spacing: 0;
+      font-weight: normal;
+      position: relative;
+      padding: 0 0 10px 0;
+      font-weight: normal;
+      line-height: normal;
+      color: #111111;
+      font-weight:bold;
+      /* font-size:70px; */
+      /* margin: 0 */
+  }
+  button ,a{
+    border: 5;
+    margin: 05;
+    padding: 0.5%;
+    cursor: pointer;
+    /* background: #000; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  /* .imgStyle{
+    width: 50px;
+    float: left;
+    display: block;
+    width: 100%;
+    height:fit-content;
+    flex: 2;
+    background-size: cover;
+    background-position: center;
+  } */
+  
+  /* .main-div{
+    background-color: aqua;
+    width: 1%;
+    float: left;
+    display: block;
+    width: 100%;
+    height: 10%;
+    background-size: cover;
+    background-position: center
+  } */
+  .send_btn{
+    width: 180px;
+    margin: 0 auto;
+    text-align: center;
+}
+.main_bt a,h2{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #d33a11;
+  padding: 15px 50px 12px 50px;
+  border-radius: 30px;
+  display: block;
+}
+/* .email_text {
+  width: 100%;
+  float: left;
+  margin-top: 20px;
+} */
+.useful_text{
+  width: 100%;
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.bg{
+  background: cyan;
+}
+.about_taital {
+  width: 100%;
+  float: left;
+  font-size: 40px;
+  color: #f76d37;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.bb{
+  display: flex;
+  direction: column;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  
+}
+/* .nav-link,.bb {
+  padding-right: .5rem;
+  padding-left: .5rem;
+  font-size: 18px;
+  color: #fff;
+} */
+.list{
+  width: 100%;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align:justify;
+  background-color: #a2d311;
+  padding: 15px 50px 12px 50px;
+  border-radius:100px;
+  display:flexbox;
+
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .1)), url('https://images.unsplash.com/photo-1595624871930-6e8537998592?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.aa {
+   font-size: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 100;
+   margin-bottom: 1rem;
+}
+
+.ab{
+  font-size: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.ac{
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+a{
+  padding: 15px 20px;
+  background: #52caee;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #333333;
+  border-radius: .25rem;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.808)
+}
+textarea {
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
